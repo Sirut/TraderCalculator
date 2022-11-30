@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+}
+
+row{
+  padding-right: 0px !important;
+}
+.spacer{
+  padding-top:10px;
+  padding-bottom:5px
+}
+.spacer-btn {
+  padding-top: 33px;
+}
+.texter{
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.btn-sys {
+  padding-top: 21px !important;
+  cursor: pointer;
+}
+
+.page-link {
+  background-color: #171722 !important;
+  border: 0px solid !important;
+  color:#c3c2d4 !important;
+  font-size: 10px !important;
+}
+
+.page-link:hover {
+  color:#dc3545 !important;
+}
+
+
+span.colored {
+  background-color:  #232334 !important;
+  border-color:  #232334 !important;
+  color: #c3c2d4 !important;
+}
+
+input, select {
+  background-color: #232334 !important;
+  border-color:  #232334 !important;
+  color: #c3c2d4 !important;
+}
+
+.former{
+  background-color: #1c1c28;
+  border-color: #0d6efd;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  height: 380px;
+}
+
+.hrer {
+  color: #0d6efd;
+  margin: 1rem 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171722 !important;
+  color: #c3c2d4 !important;
+  font-size: 15px;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid #303236;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form-control-sm {
+  font-size: 0.775rem
+}
+
+.nav-tabs {
+  border-bottom: 0px solid #dee2e6;
+}
+
+nav-link:hover {
+  border-color: #0d6efd #0d6efd #0d6efd !important;
+}
+.btn-settings {
+  /*background-color: #171722 !important;*/
+  color: #c3c2d4 !important;
+  /*border-color: #171722 !important;*/
+  border-radius: 50px !important;
+}
+
+.btn-settings:hover{
+  color: #0d6efd !important;
+  /*border-color: #0d6efd !important;*/
+}
+
+.btn-closer {
+  color: #c3c2d4 !important;
+  border-radius: 50px !important;
+}
+
+.btn-closer:hover{
+  color: #dc3545!important;
+}
+
+.btn-long {
+  background-color: #171722 !important;
+  color: #c3c2d4 !important;
+  border-color: #171722 !important;
+
+}
+.btn-short {
+  background-color: #171722 !important;
+  color: #c3c2d4 !important;
+  border-color: #171722 !important;
+}
+
+.btn-short:hover{
+  background-color: #171722 !important;
+  color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.btn-long:hover{
+  background-color: #171722 !important;
+  color: #198754 !important;
+  border-color: #198754 !important;
+}
+.btn-sys:focus, .btn:focus, .noshad {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* Remove Arrow Input [Number] */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
